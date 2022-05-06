@@ -1,0 +1,190 @@
+body{
+    background-image: url("https://ichef.bbci.co.uk/news/640/cpsprodpb/180CC/production/_109080589_gettyimages-1091704894.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width: 1100px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 10px;
+}
+nav{
+    background-color: maroon;
+}
+.barra{
+    text-align: center;
+    margin: 0;
+}
+.barra li{
+    display: inline-block;
+}
+.barra a{
+    padding: 25px;
+    text-decoration: forestgreen;
+    color: mistyrose;
+    display: block;
+}
+.barra a:hover{
+    background-color: forestgreen;
+    color: bisque;
+}
+header{
+    background-color: chocolate;
+    height: auto;
+    width: 1100px;
+    overflow: hidden;
+    text-align: center;
+}
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: aqua;
+    text-shadow: 0 0 50px blue;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+main{
+    height: 1815px;
+    background-color: rgb(230, 186, 103);
+}
+aside{
+    height: 500px;
+	width: 600px;
+	background: rgb(122, 228, 235);
+	float: left;
+}
+.primero{
+    text-align: left;
+}
+article{
+    background-color: aquamarine;
+    width: 500px;
+    height: 250px;
+    float: right;
+}
+.video{
+    background-color: aquamarine;
+    width: 500px;
+    height: 250px;
+    float: right;
+}
+.segundo{
+    margin: 0px;
+    height: 1250px;
+	width: 1100px;
+	background: rgb(122, 228, 235);
+	float: left;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+caption{
+    background-color: darkred;
+    padding: 15px;
+    color: white;
+}
+tr, td{
+    text-align: center;
+    width: 25%;
+    border: 1px solid rgb(243, 26, 199);
+    vertical-align: top;
+}
+#croacia{
+    background: linear-gradient(red, white, darkblue);
+}
+#alemania{
+    background: linear-gradient(Black, red, yellow);
+    color: white;
+}
+#francia{
+    background: linear-gradient(to right, blue, white,80%, red);
+}
+#estonia{
+    background: linear-gradient(rgb(52, 88, 155), black, white);
+    color: white;
+}
+#italia{
+    background: linear-gradient(to right, green, white,80%, red);
+}
+#españa{
+    background: linear-gradient(red, yellow,75%,red);
+}
+#ucrania{
+    background: linear-gradient(rgb(76, 109, 180),70%, yellow);
+}
+#polonia{
+    background: linear-gradient(white,60%, red);
+}
+#rumania{
+    background: linear-gradient(to right, blue, yellow,80%, red);
+}
+#grecia{
+    background: linear-gradient(blue, white, blue, white, blue, white);
+}
+#portugal{
+    background: linear-gradient(to right, green,40%, red);
+    color: white;
+}
+#suecia{
+    background: linear-gradient(to right, blue, yellow, blue);
+}
+#hungria{
+    background: linear-gradient(red, white, green);
+}
+#irlanda{
+    background: linear-gradient(to right, green, white, orange);
+}
+#luxemburgo{
+    background: linear-gradient(red, white, rgb(53, 101, 120));
+}   
+#noruega{
+
+    background: linear-gradient(to right, red, white,20%, blue,40%, white, red  );
+}
+img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 80px;
+    padding: 10px;
+}
+footer{
+    color: darkmagenta;
+    text-align: center;
+}
+.gmail{
+    margin: 114px;
+    display: inline;
+}
+.gmail img{
+    width: 25px;
+    float: left;
+}
+.facebook{
+    margin: 114px;
+    display: inline;
+}
+.facebook img{
+    width: 25px;
+    float: center;   
+    display: inline;
+}
+.instagram{
+    margin: 114px;
+    display: inline;
+}
+.instagram img{
+    width: 25px;
+    float: center;
+    display: inline;
+}
+.whatsapp{
+    margin: 114px;
+    display: inline;
+}
+.whatsapp img{
+    width: 25px;
+    float: center;
+    display: inline;
+}
