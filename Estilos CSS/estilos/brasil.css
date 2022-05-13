@@ -29,3 +29,15 @@ nav a{
 nav a:hover{
     color: lavenderblush;
 }
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0;
+    }
+    nav a{
+        font-weight: 900;
+        color: lawngreen;
+    }
+}
