@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://watermark.lovepik.com/photo/20211207/large/lovepik-starry-sky-galaxy-scenery-picture_501548359.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    margin-top: 10px;
+}
+header{
+    width: 750px;
+    height: 250px;
+    background: rgb(148, 76, 133);
+}
+.banner{
+    background-color: aquamarine;
+    width: 500px;
+    height: 250px;
+    float: right;
+}
+.logo{
+    background-color: blanchedalmond;
+    height: 125px;
+    width: 250px;
+    float: left;
+    margin: auto;
+
+}
+.buscador{
+    background-color: cornflowerblue;
+    height: 125px;
+    width: 250px;
+    float: left;
+    text-align: center;
+}
+ul{
+    height: 50px;
+    background: skyblue;
+}
+/*Para quitar viñetas*/
+nav li{
+    list-style: none;
+}
+nav ul li{
+    float: left ;
+}
+nav a{
+    color: rgb(184, 120, 9);
+    text-decoration: none;
+    padding: 15px;
+    line-height: 50px;
+    font-family: Bernard MT Condensed;
+}
+main{
+    height: 400px;
+    background: beige;
+}
+.izquierda{
+	height: 400px;
+	width: 125px;
+	background: green;
+	float: left;
+}
+article{
+	width: 500px;
+	height: 400px;
+	background: yellow;
+	float: left;
+}
+#derecha{
+	height: 400px;
+	width: 125px;
+	background: green;
+	float: left;
+}
