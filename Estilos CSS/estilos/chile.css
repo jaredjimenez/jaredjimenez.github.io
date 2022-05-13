@@ -69,7 +69,7 @@ img:hover{
     /* sepia --> + o - intesidad*/
     /*filter: sepia(60%);*/ /*Los colores bajan su tonalidad*/
     /*filter: saturate(180%);*/ /*Da más vida a los colores*/
-    filter: opacity(0.5);
+    filter: opacity(1);
 }
 /* PSEUDOCODIGO: es una palabra que se añade a los selectores y que especifíca un estado especial del elemento seleccionado */
 
