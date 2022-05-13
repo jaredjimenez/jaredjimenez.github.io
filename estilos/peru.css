@@ -53,6 +53,7 @@ header{
 }
 .imagen{
     padding: 0 40px 40px;
+    padding: auto;
 }
 img:hover{
     opacity: .5;

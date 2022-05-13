@@ -5,7 +5,7 @@
 }
 html{
     /*la imagen sea estática*/
-    background-image: url("/Estilos CSS/imagen/isla de pascua.jpg");
+    background-image: url("/imagen/pascua.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     height: 1000px;
