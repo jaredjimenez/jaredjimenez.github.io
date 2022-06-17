@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+html{
+    background-image: url(https://glodeev.com/views/articulos/diferencias-entre-codificacion-y-programacion/main.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    text-align: center;
+    background-color: moccasin;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+nav a:hover{
+    background-color: forestgreen;
+    color: rgb(213, 243, 16);
+}
+a{
+    text-decoration: forestgreen;
+    color: maroon;
+    display: block;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 35px;
+    position: relative;
+}
+li:hover > ul{
+    display: block;
+}
+section{
+    margin: 20px;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.titulo{
+    font-family: Shadows Into Light;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: indigo;
+    text-shadow: 0 0 50px;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgb(0, 0, 0, 0.1), 0 0 5px rgb(0, 0, 0, 0.1), 0 1px 3px rgb(0, 0, 0, 0.3), 0 3px 5px rgb(0, 0, 0, 0.2), 0 5px 10px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.2), 0 20px 20px rgb(0, 0, 0, 0.15);
+}
+div{
+    margin: 20px;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.texto{
+    font-family: 'Indie Flower', cursive;
+}
+input{
+    background-color: peru;
+}
+button{
+    background-color: cyan;
+    color: darkorchid;
+}

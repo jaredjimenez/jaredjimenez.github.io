@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+html{
+    background-image: url(https://glodeev.com/views/articulos/diferencias-entre-codificacion-y-programacion/main.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    text-align: center;
+    background-color: moccasin;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+nav a:hover{
+    background-color: forestgreen;
+    color: rgb(213, 243, 16);
+}
+a{
+    text-decoration: forestgreen;
+    color: maroon;
+    display: block;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 35px;
+    position: relative;
+}
+li:hover > ul{
+    display: block;
+}
+.titulo{
+    font-family: Shadows Into Light;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: indigo;
+    text-shadow: 0 0 50px;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgb(0, 0, 0, 0.1), 0 0 5px rgb(0, 0, 0, 0.1), 0 1px 3px rgb(0, 0, 0, 0.3), 0 3px 5px rgb(0, 0, 0, 0.2), 0 5px 10px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.2), 0 20px 20px rgb(0, 0, 0, 0.15);
+}
+div{
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.contenedor::after{ 
+    content: "";
+    width: 5px;
+    height: 100%;
+    background: maroon;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 2px);
+    z-index: 1;
+}
+.evento{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+.evento::after{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 100px;
+    background: gold;
+    border: 2px solid #1b3231;
+    position: absolute;
+    z-index: 2;
+    top: calc(50% - 9px);
+    left: calc(50% - 9px);
+}
+.nombre{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: calc(42% + 20px);
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Indie Flower', cursive;
+}
+.foto{
+    width: 35%;
+    border: 10px solid #fff;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+}
+.foto::after{
+    content: "";
+    display: block;
+    border: 20px solid transparent;
+    border-left: 20px solid #fff;
+    position: absolute;
+    right: -50px;
+    top: calc(50% - 20px);
+}
+.foto img{
+    width: 100%;
+    vertical-align: top;
+}
+.evento:nth-child(even){
+    flex-direction: row-reverse;
+}
+.evento:nth-child(even) .nombre{
+    justify-content: end;
+}
+.evento:nth-child(even) .foto::after{
+    content: "";
+    border: 20px solid transparent;
+    border-right: 20px solid #fff;
+    right: initial;
+    left: -50px;
+}
